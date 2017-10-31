@@ -2,7 +2,7 @@ module GoogleDFP
 
   class Size
     PATTERN = /\A\d+x\d+\z/
-    
+
     attr_reader :width, :height
 
     def initialize(size)
